@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Montserrat:wght@400;500;900&family=Noto+Sans+Symbols+2&display=swap');
+
+* {
+    text-align: center;
+    font-family: Inter;
+    color: white;
+}
+body {
+    background-color: black;
+}
+header {
+    height: 600px;
+    background: rgba(0, 195, 255, 0.075) url(../images/banner.png);
+    border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
+    margin-top: 0;
+}
+.logo {
+    padding-top: 70px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(0, 191, 255);
+    font-weight: 800;
+}
+
+header p {
+    height: 30px;
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: medium;
+}
+header button {
+    padding: 15px;
+    margin: 50px;
+    width: 300px;
+    border: solid aqua 2px;
+    background-color: transparent;
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#course-content {
+    height: 450px;
+    padding: 60px;
+    border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(0, 191, 255);
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+#course-content p {
+    height: 30px;
+    width: 900px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.modules-list {
+    padding: 20px;
+}
+
+.module {
+    margin-top: 30px;
+    margin-left: 400px;
+    padding: 20px;
+    width: 500px;
+    border: solid rgb(0, 191, 255) 1px;
+    border-radius: 50px;
+    background-color: rgb(48, 48, 48);
+}
+
+.module span {
+    color: rgb(0, 191, 255);
+}
+
+#transform-world {
+    margin-top: -50px;
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
+}
+
+#transform-world p {
+    padding-top: 180px;
+    margin-left: 150px;
+    width: 300px;
+    text-align: left;
+    text-transform: lowercase;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 8px 8px 4px gray;
+}
+
+#professional-challenges {
+    padding: 50px;
+    width: 900px;
+    margin-left: 300px;
+    border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
+}
+
+#professional-challenges p {
+    line-height: 2;
+}
+
+footer {
+    padding: 30px;
+
+}
+
+footer p a {
+    color: rgb(0, 191, 255);
+    font-weight: 700;
+}
