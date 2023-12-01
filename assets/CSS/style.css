@@ -9,10 +9,12 @@ body {
     background-color: black;
 }
 header {
-    height: 600px;
+    height: auto;
     background: rgba(0, 195, 255, 0.075) url(../images/banner.png);
     border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
     margin-top: 0;
+    background-size: inherit;
+    background-attachment: scroll;
 }
 .logo {
     padding-top: 70px;
@@ -27,7 +29,7 @@ h1 {
 
 header p {
     height: 30px;
-    width: 600px;
+    width: 500px;
     margin: auto;
     font-size: 18px;
     font-weight: medium;
@@ -59,7 +61,7 @@ h2 {
 }
 #course-content p {
     height: 30px;
-    width: 900px;
+    width: auto;
     margin: auto;
     font-size: 18px;
     font-weight: medium;
@@ -70,8 +72,7 @@ h2 {
 }
 
 .module {
-    margin-top: 30px;
-    margin-left: 400px;
+    margin: 30px auto 20px;
     padding: 20px;
     width: 500px;
     border: solid rgb(0, 191, 255) 1px;
@@ -105,8 +106,7 @@ h2 {
 
 #professional-challenges {
     padding: 50px;
-    width: 900px;
-    margin-left: 300px;
+    width: auto;
     border-bottom: solid rgba(0, 191, 255, 0.2) 0.1px;
 }
 
